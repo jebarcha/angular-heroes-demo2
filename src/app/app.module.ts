@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 
 // Components
@@ -17,6 +18,7 @@ import { ErrorPageComponent } from './shared/error-page/error-page.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],
