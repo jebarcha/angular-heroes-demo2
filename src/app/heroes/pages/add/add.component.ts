@@ -69,7 +69,7 @@ export class AddComponent implements OnInit {
     if (this.heroe.id) {
       // update
       this.heroesService.updateHero(this.heroe).subscribe( resp => {
-        console.log('updating hero', resp);
+        //console.log('updating hero', resp);
         this.showSnackbar('record updated');
       })
     } else {

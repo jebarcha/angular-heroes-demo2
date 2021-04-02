@@ -14,7 +14,7 @@ export class ConfirmComponent implements OnInit {
               @Inject(MAT_DIALOG_DATA) public data: Heroe) { }
 
   ngOnInit(): void {
-    console.log(this.data);
+    //console.log(this.data);
   }
 
   delete() {
